@@ -82,6 +82,7 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: CRM-NIKARA-v1.5.0-debug
+          name: CRM-NIKARA-v1.5.0-FINAL-debug
           path: mobile/android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
+
